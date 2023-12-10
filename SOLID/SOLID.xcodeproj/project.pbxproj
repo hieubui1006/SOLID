@@ -17,6 +17,12 @@
 		B2F6543A2B258F7E00DD0797 /* SOLIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654392B258F7E00DD0797 /* SOLIDTests.swift */; };
 		B2F654442B258F7E00DD0797 /* SOLIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654432B258F7E00DD0797 /* SOLIDUITests.swift */; };
 		B2F654462B258F7E00DD0797 /* SOLIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654452B258F7E00DD0797 /* SOLIDUITestsLaunchTests.swift */; };
+		B2F654532B258FF300DD0797 /* SingleResponsibilityPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654522B258FF300DD0797 /* SingleResponsibilityPrinciple.swift */; };
+		B2F654552B25948500DD0797 /* Open+ClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654542B25948500DD0797 /* Open+ClosedPrinciple.swift */; };
+		B2F654572B259E1100DD0797 /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654562B259E1100DD0797 /* LiskovSubstitutionPrinciple.swift */; };
+		B2F654592B25A67000DD0797 /* InterfaceSegregationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F654582B25A67000DD0797 /* InterfaceSegregationPrinciple.swift */; };
+		B2F6545B2B25A8D300DD0797 /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6545A2B25A8D300DD0797 /* DependencyInversionPrinciple.swift */; };
+		B2F6545C2B25AD2600DD0797 /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6545A2B25A8D300DD0797 /* DependencyInversionPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,11 @@
 		B2F6543F2B258F7E00DD0797 /* SOLIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F654432B258F7E00DD0797 /* SOLIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDUITests.swift; sourceTree = "<group>"; };
 		B2F654452B258F7E00DD0797 /* SOLIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2F654522B258FF300DD0797 /* SingleResponsibilityPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibilityPrinciple.swift; sourceTree = "<group>"; };
+		B2F654542B25948500DD0797 /* Open+ClosedPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Open+ClosedPrinciple.swift"; sourceTree = "<group>"; };
+		B2F654562B259E1100DD0797 /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
+		B2F654582B25A67000DD0797 /* InterfaceSegregationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciple.swift; sourceTree = "<group>"; };
+		B2F6545A2B25A8D300DD0797 /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,11 @@
 				B2F6542D2B258F7E00DD0797 /* LaunchScreen.storyboard */,
 				B2F654302B258F7E00DD0797 /* Info.plist */,
 				B2F654282B258F7D00DD0797 /* SOLID.xcdatamodeld */,
+				B2F654522B258FF300DD0797 /* SingleResponsibilityPrinciple.swift */,
+				B2F654542B25948500DD0797 /* Open+ClosedPrinciple.swift */,
+				B2F654562B259E1100DD0797 /* LiskovSubstitutionPrinciple.swift */,
+				B2F654582B25A67000DD0797 /* InterfaceSegregationPrinciple.swift */,
+				B2F6545A2B25A8D300DD0797 /* DependencyInversionPrinciple.swift */,
 			);
 			path = SOLID;
 			sourceTree = "<group>";
@@ -261,10 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F654572B259E1100DD0797 /* LiskovSubstitutionPrinciple.swift in Sources */,
+				B2F654552B25948500DD0797 /* Open+ClosedPrinciple.swift in Sources */,
 				B2F654242B258F7D00DD0797 /* ViewController.swift in Sources */,
 				B2F6542A2B258F7D00DD0797 /* SOLID.xcdatamodeld in Sources */,
 				B2F654202B258F7D00DD0797 /* AppDelegate.swift in Sources */,
+				B2F654592B25A67000DD0797 /* InterfaceSegregationPrinciple.swift in Sources */,
 				B2F654222B258F7D00DD0797 /* SceneDelegate.swift in Sources */,
+				B2F654532B258FF300DD0797 /* SingleResponsibilityPrinciple.swift in Sources */,
+				B2F6545B2B25A8D300DD0797 /* DependencyInversionPrinciple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F6543A2B258F7E00DD0797 /* SOLIDTests.swift in Sources */,
+				B2F6545C2B25AD2600DD0797 /* DependencyInversionPrinciple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
